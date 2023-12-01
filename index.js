@@ -9,10 +9,10 @@ let mailTransporter = nodemailer.createTransport({
 
 let details = {
     from: "csoni0692@gmail.com",
-    to: "officialsimranahuja@gmail.com",
+    to: "csoni0693@gmail.com",
     subject: "Testing our nodemailer",
     text:"hello world",
-    html:"<h1>Hello guys</h1>"
+    html:"<h1>Hello Guys 🖐</h1>"
 }
 mailTransporter.sendMail(details,(err)=>{
     if(err){
